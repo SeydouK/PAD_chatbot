@@ -1,0 +1,241 @@
+version: "3.1"
+
+nlu:
+- intent: greet
+  examples: |
+    - bonjour
+    - salut
+    - bonsoir
+    - coucou
+    - hello
+    - bonjour, j'ai une question
+
+- intent: goodbye
+  examples: |
+    - au revoir
+    - à bientôt
+    - bye
+    - bonne journée
+    - à la prochaine
+
+- intent: thank
+  examples: |
+    - merci
+    - merci beaucoup
+    - c'est gentil, merci
+    - super, merci
+
+- intent: ask_horaires
+  examples: |
+    - quels sont vos horaires ?
+    - vous êtes ouverts quand ?
+    - à quelle heure ouvrez-vous ?
+    - horaires d'ouverture
+    - jusqu'à quelle heure êtes-vous ouverts ?
+    - est-ce que vous ouvrez le [samedi](jour) ?
+    - quels sont vos horaires du [lundi](jour) ?
+    - vous êtes ouverts le [dimanche](jour) ?
+    - horaires du [mardi](jour)
+    - à quelle heure vous fermez le [vendredi](jour) ?
+    - ouverts [mercredi](jour) ?
+    - et le [jeudi](jour) ?
+
+- intent: inform_jour 
+  examples: |
+    - et le [lundi](jour) ?
+    - le [samedi](jour) ?
+    - [mardi](jour)
+    - plutôt le [vendredi](jour) ?
+    - et [dimanche](jour)?
+    - le [mercredi](jour) alors ?
+
+- intent: ask_contact
+  examples: |
+    - comment vous contacter ?
+    - quel est votre numéro de téléphone ?
+    - donnez-moi votre adresse email
+    - je voudrais vous joindre
+    - contact
+
+- intent: ask_visite_virtuelle
+  examples: |
+    - c'est quoi la visite virtuelle ?
+    - comment accéder à la visite 360 ?
+    - je veux visiter en ligne
+    - y a-t-il une visite panoramique ?
+
+- intent: bot_challenge
+  examples: |
+    - es-tu un robot ?
+    - je parle à un humain ?
+    - tu es une IA ?
+
+- intent : request_rdv
+  examples: |
+    - je voudrais un rendez-vous
+    - je souhaite prendre rendez-vous 
+    - comment fixer un rendez-vous ? 
+    - j'aimerais rencontrer quelqu'un 
+    - prendre rendez-vous 
+    - je veux planifier une visite 
+    - est-il possible d'avoir un rendez-vous ? 
+    - rendez-vous
+
+- intent: stop 
+  examples: |
+    - annuler 
+    - laisse tomber
+    - stop 
+    - je ne veux plus 
+    - non finalement 
+    - oublie ça
+    - arrête
+
+- intent: ask_presentation
+  examples: |
+    - c'est quoi le PAD ?
+    - présentez-vous
+    - qui êtes-vous ?
+    - parlez-moi du port 
+    - qu'est-ce que le port autonome ?
+    - quelle est votre mission ? 
+    - présentation du PAD
+    - à quoi sert le port ?
+
+- intent: ask_services
+  examples: |
+    - quels services proposez-vous ? 
+    - quels sont vos services ? 
+    - que faites-vous ?
+    - donne-moi la liste de vos services
+    - qu'est-ce que vous offrez ?
+    - vous proposez quoi comme service ? 
+    - quelles sont vos prestations ? 
+    - vos services 
+    - détail du service de [pilotage](service)
+    - c'est quoi le [remorquage](service) ?
+    - parlez-moi du [lamanage](service)
+    - en quoi consite la [manutention](service) ?
+    - expliquez-moi l'[entreposage](service)
+    - que comprend le service de [pilotage](service) ?
+    - je veux des infos sur le [remorquage](service) 
+
+- intent: ask_documents
+  examples: |
+    - quels documents faut-il pour importer ?
+    - documents nécessaires pour exporter
+    - comment dédouaner une marchandise ?
+    - quelles sont les démarches pour une importation ?
+    - papiers à fournir pour une exportation
+    - procédure d'import
+    - procédure d'export
+    - que dois-je fournir pour faire passer ma marchandise ?
+
+- intent: ask_localisation
+  examples: |
+    - où se trouve le port ?  
+    - adresse du port 
+    - comment venir au port ?
+    - où êtes-vous situés ?
+    - localisation du PAD 
+    - c'est où exactement ? 
+    - comment s'y rendre ?
+
+- intent: request_suivi_navire 
+  examples: |
+    - je veux suivre un navire
+    - où est mon navire ? 
+    - suivi de navire 
+    - état d'un navire 
+    - je cherche des informations sur un navire 
+    - quand arrive mon bateau ? 
+    - suivre mon bateau 
+    - position d'un navire 
+
+- intent: ask_recrutement 
+  examples: |
+    - comment postuler chez vous ? 
+    - est-ce que vous recrutez ?
+    - offres d'emploi
+    - je cherche un stage 
+    - recrutement 
+    - comment travailler au port ?
+    - envoyer ma candidature 
+    - y-a-t-il des psotes disponibles ?
+
+- intent: ask_documentation
+  examples: |
+    - quels sont les points faibles du PAD ?
+    - quels sont les points forts du port ?
+    - quelles sont les forces et les faiblesses du port ?
+    - quelles sont les opportunités du PAD ?
+    - quelles sont les menaces pour le port ?
+    - que dit l'analyse sur la concurrence ?
+    - quel est le diagnostic du port ?
+    - que dit le document sur la localisation du port ?
+    - dans l'analyse, que dit-on des performances ?
+    - selon l'étude, quels sont les défis du PAD ?
+    - quelles sont les faiblesses du port de Dakar ?
+    - quels sont les avantages du port ?
+    - quels sont les problèmes du port ?
+    - que dit le règlement sur le stationnement ?
+    - dans la documentation, que dit-on sur la sécurité ?
+    - je cherche une information dans vos documents
+    - quel tonnage a été traité par le port ces dernières années ?
+    - comment a évolué le trafic de marchandises depuis 2018 ?
+    - quelle est la répartition du trafic entre import et export ?
+    - combien de conteneurs ont été manutentionnés ?
+    - quel est le nombre d'escales de navires ?
+    - que dit le rapport statistiques sur le transit malien ?
+    - quels produits ont le plus augmenté à l'import ?
+    - quel est le trafic de la pêche ?
+    - combien de véhicules sont passés par le port ?
+    - quel est le trafic de transbordement ?
+    - quelle est la notation financière du PAD ?
+    - que dit l'agence de notation sur le port ?
+    - quelle est la perspective de la note du PAD ?
+    - comment le PAD a-t-il redressé sa situation financière ?
+    - quels sont les concurrents du port de Dakar ?
+    - que dit l'analyse sur la congestion du port ?
+    - c'est quoi le plan stratégique 2019-2023 ?
+    - que dit le bulletin sur la sécurité du port ?
+    - parle-moi du code ISPS
+    - quel est le partenariat avec Dunkerque ?
+    - qu'est-ce que HAROPA ?
+    - que dit le journal sur la filière horticole ?
+    - comment est organisée la sûreté portuaire ?
+    - qui est le directeur général du port ?
+    - quels projets ont été annoncés pour le Mali ?
+    - parle-moi de la certification ISO 28000
+    - quelles sont les statistiques du trafic conteneurs en 2013 ?
+    - quelles taxes portuaires doit-on payer ?
+    - quel est le montant des droits de port ?
+    - quels sont les appels d'offres en cours ?
+    - y a-t-il des avis d'attribution de marchés récents ?
+    - comment obtenir un agrément auprès du PAD ?
+    - quelles sont les conditions pour devenir fournisseur du port ?
+    - que dit le plan de passation des marchés ?
+    - quelles sont les dernières actualités du port ?
+    - que s'est-il passé récemment au port de Dakar ?
+    - parle-moi du navire hôpital chinois
+    - qu'est-ce que le COLOVAC ?
+    - quelles sont les liaisons maritimes Dakar-Ziguinchor ?
+    - comment fonctionne la liaison Dakar-Gorée ?
+    - quand a lieu la saison des croisières ?
+    - quels sont les horaires des marées ?
+    - que signifie le terme de lexique portuaire ?
+    - quelle est la définition d'un connaissement ?
+    - quelles sont les formalités douanières au port ?
+    - quelle est la politique QSE du PAD ?
+    - que fait le PAD en matière de responsabilité sociétale ?
+    - quels sont les partenaires stratégiques du port ?
+    - comment est organisé le conseil d'administration ?
+    - quelles sont les missions et le statut du PAD ?
+    - quelle est l'histoire du port de Dakar ?
+    - quelles sont les infrastructures du port ?
+    - comment fonctionne la gare maritime ?
+    - quelle est la démarche de sûreté du PAD ?
+    - comment faire une demande de visite du port ?
+    - quels sont les métiers du PAD ?
+    - que dit la foire aux questions sur les navires ?
+    - qu'est-ce que le tam-tam du docker ?

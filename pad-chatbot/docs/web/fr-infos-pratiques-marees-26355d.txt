@@ -1,0 +1,82 @@
+URL: https://www.portdakar.sn/fr/infos-pratiques/marees
+TITRE: Heures de marées | Port Autonome de Dakar
+
+Jour.
+
+1ère marée basse.
+
+1ère Marée haute.
+
+2ème marée basse.
+
+2ème Marée haute.
+
+20/10/2031.
+
+02:10 Low (0.64m).
+
+08:10 High (1.77m).
+
+14:10 Low (0.57m).
+
+21:10 High (1.77m).
+
+21/10/2031.
+
+11:10 Low (0.88m).
+
+05:10 High (1.58m).
+
+23:10 Low (0.91m).
+
+17:10 High (1.50m).
+
+16/12/2031.
+
+04:12 Low (0.42m).
+
+10:12 High (1.45m).
+
+16:12 Low (0.42m).
+
+22:12 High (1.64m).
+
+18/12/2031.
+
+10:12 Low (0.67m).
+
+04:12 High (1.54m).
+
+22:12 Low (0.75m).
+
+17:12 High (1.44m).
+
+19/12/2031.
+
+06:12 Low (0.62m).
+
+00:12 High (1.65m).
+
+18:12 Low (0.68m).
+
+12:12 High (1.41m).
+
+20/12/2031.
+
+03:12 Low (0.56m).
+
+09:12 High (1.52m).
+
+15:12 Low (0.51m).
+
+22:12 High (1.73m).
+
+21/12/2031.
+
+00:12 Low (0.66m).
+
+06:12 High (1.56m).
+
+12:12 Low (0.54m).
+
+19:12 High (1.66m).

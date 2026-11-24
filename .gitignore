@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+.venv-admin/
+venv/
+.env
+.admin_secret
+
+# Rasa
+.rasa/
+.rag_cache/
+
+# Node / Angular
+node_modules/
+.angular/
+dist/
+
+# Databases
+*.db
+*.sqlite
+*.sqlite3
+
+# IDE
+.vscode/
+.idea/
+
+# Logs
+*.log

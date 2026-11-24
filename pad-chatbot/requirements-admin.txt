@@ -1,0 +1,13 @@
+flask>=3.0
+waitress
+cryptography
+sqlalchemy
+pypdf
+python-docx
+beautifulsoup4
+lxml
+requests
+pyyaml
+psycopg2-binary
+pymysql
+pymssql

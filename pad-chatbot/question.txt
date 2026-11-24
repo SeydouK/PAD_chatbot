@@ -1,0 +1,53 @@
+Quel est le trafic global du port en 2022 ?
+
+Quelle est la part de marché de DP World en conteneurs ?
+
+Pourquoi le transit malien en sortie a-t-il chuté ?
+
+Combien de navires ont fait escale en 2022 ?
+
+Quelle est la notation du PAD ?
+
+Combien l’économie perd-elle à cause de la congestion ?
+
+Quels sont les points forts du PAD ?
+
+Comment ont évolué les finances de 2017 à 2019 ?
+
+Bulletin d’information n°9 (2015)
+
+Qu’est-ce que le projet FOB-DK ?
+
+Quelle est la part du PAD sur le transit malien ?
+
+Qu’a signé le PAD avec G3S ?
+
+Combien de tentatives d’immigration clandestine en 2013 et 2014 ?
+
+Qu’est-ce que le COP et quand a-t-il été créé ?
+
+Quelles taxes portuaires doit-on payer ? 
+
+Quels sont les appels d’offres en cours ? 
+
+Parle-moi de la liaison Dakar-Ziguinchor.
+
+Vous êtes ouverts quand ? 
+Et le vendredi ?
+Le samedi ? 
+Quels sont vos services ? 
+C’est quoi le remorquage ? 
+Je veux suivre un navire
+Atlantic Star 
+Gulf Pearl 
+Titanic 
+Je voudrais un rendez-vous », puis réponds au formulaire avec le nom, l’email, puis le motif. Teste un email invalide (« abc ») pour voir le message d’erreur. Vérifie ensuite que demandes_rdv.jsonl contient la demande.
+Interruption : en plein formulaire, écris « Laisse tomber » ou « Annuler » : le formulaire doit s’arrêter.
+Présentation : « C’est quoi le PAD ? »
+Contact : « Comment vous contacter ? »
+Localisation : « Où se trouve le port ? »
+Recrutement : « Est-ce que vous recrutez ? »
+Documents d’import : « Quels documents faut-il pour importer ? » Cette question peut être confondue avec ask_documentation, donc c’est un bon test.
+Visite virtuelle : « Y a-t-il une visite 360 ? »
+Robot : « Tu es une IA ? »
+Politesse : « Bonjour », « Merci », « Au revoir ».

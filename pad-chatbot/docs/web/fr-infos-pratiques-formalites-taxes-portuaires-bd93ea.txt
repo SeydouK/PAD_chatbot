@@ -1,0 +1,132 @@
+URL: https://www.portdakar.sn/fr/infos-pratiques/formalites/taxes-portuaires
+TITRE: Taxes portuaires | Port Autonome de Dakar
+
+REDEVANCES APPLICABLES AUX NAVIRES PILOTABLES.
+
+L’assiette servant à établir les redevances sur les navires pilotables est le volume exprimé en mètre cube.
+
+Un navire devient obligatoirement pilotable dés que son volume atteint 1500 m3.
+
+L’assiette servant à établir les redevances sur les navires pilotables est le volume « V » exprimé en m3, se définissant de la façon suivante:
+
+V=L x l x Tme.
+
+Avec :
+
+L= longueur hors tout du navire exprimée en mètre.
+
+l = Largeur maximale du navire exprimée en mètre.
+
+Tme= Tirant d’eau maximal d’été, exprimé en mètre, celui-ci ne pouvant en aucun cas être inférieur à 0,14 racine carrée de L x l.
+
+Les redevances portuaires sont principalement perçues sur :
+
+Le pilotage et le balisage.
+
+L’amarrage.
+
+Le désamarrage.
+
+Le séjour.
+
+REDEVANCES APPLICABLES AUX NAVIRES NON PILOTABLES.
+
+Les navires dits « non pilotables » sont les navires de moins de 1.500 m3 (taille du navire estimée par application de la formule V= L x l x 0,14 (L x l) ½).
+
+Pour ces navires, le pilotage n’est pas obligatoire. Dans le cas où il serait demandé, il sera fait application du tarif général.
+
+Dans tous les cas, les navires non pilotables payent une redevance de balisage, d’abri et d’usage du plan d’eau protégé, calculée en fonction du volume « V », exprimé en m3 du navire :
+
+Te= Tirant d’eau est obtenu par application de la formule : Te= 0,14 (L x l) ½ (0,14 fois racine carrée du produit L x l).
+
+BAREME APPLICABLE AUX MARCHANDISES.
+
+Ils concernent:
+
+Les droits de passage des marchandises à l'import et à l'export.
+
+les droits de passage des marchandises en transit et en transbordement.
+
+les droits perçus sur les passagers sur lignes internationales et sur les lignes de cabotage national
+
+REDEVANCES D’OCCUPATION DES INSTALLATIONS DEDIEES AU STOCKAGE DES MARCHANDISES.
+
+Elles concernent:
+
+Les terre-pleins banalisés,.
+
+Les installations non banalisées adjacentes aux bords à quai,.
+
+Les installations non banalisées et non adjacentes aux bords à quai.
+
+Les installations situées en dehors de la barrière douanière (ou portuaire),.
+
+Les terre-pleins banalisés.
+
+Les marchandises à embarquer ou débarquer peuvent séjourner gratuitement sur les terre- pleins et dans les hangars de la zone interne pendant les durées suivantes :
+
+07 jours à l’importation ou l’exportation pour toutes les marchandises y compris les véhicules,
+
+20 jours pour les marchandises en transit sauf pour les véhicules,.
+
+12 jours pour les véhicules en transit.
+
+Au-delà du 7 éme jour suivant la fin du délai de gratuité, la majoration s’applique par m2 et par jour à la totalité des surfaces non encore libérées (+30%)
+
+par rapport au tarif de base.
+
+Les installations non banalisées adjacentes aux bords à quai.
+
+les terre-pleins de commerce.
+
+les terre-pleins de pêche.
+
+les abords des hangars.
+
+les hangars.
+
+Cependant, un régime exceptionnel est appliqué pour:
+
+les pénalités pour séjour abusif des conteneurs:
+
+les majorations pour le gerbage dans les terre-pleins spécialement dédiés au stockage des conteneurs
+
+les minorations pour occupations aériennes et souterraines.
+
+les surfaces recevant des bâtiments à usage de bureaux.
+
+les terre-pleins recevant des produits dangereux.
+
+les terre-pleins recevant des bâtiments industriels.
+
+le môle de pêche dont tous les terrains sont considérés comme adjacents au bord à quai
+
+les locations au mois.
+
+Terrains et installations de stockage non banalisés et non adjacents au bord à quais et loués à l'année
+
+les terre-pleins de commerce sous douane.
+
+les hangars sous douane.
+
+les abords des hangars sous douane.
+
+les bureaux.
+
+les terrains pouvant recevoir des bâtiments industriels (sauf pêche soumis au régime particulier)
+
+Les locaux divers.
+
+les cuves.
+
+les pipe – lines.
+
+Terrains et installations situés en dehors de la barrière douanière.
+
+les terre-pleins hors douane.
+
+les hangars hors douane.
+
+les autres terrains et installations hors douane.
+
+Les autres taxes sont versées aux privés ou à d’autres structures sous le contrôle de l’autorité portuaire

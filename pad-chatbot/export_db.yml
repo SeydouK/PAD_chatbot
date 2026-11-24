@@ -1,0 +1,20 @@
+# Tables dont le texte est exporté vers docs/db/ pour le chatbot (voir export_db.py).
+# url_env = NOM d'une variable d'environnement contenant l'URL de connexion (jamais le mot de passe ici).
+sources:
+  - nom: actualites            # préfixe des fichiers générés
+    url_env: DATABASE_URL      # ex. postgresql+psycopg2://lecteur:***@localhost:5432/pad
+    table: actualites
+    id: id                     # clé unique de la ligne
+    titre: titre               # colonne de titre (facultatif)
+    colonnes: [chapeau, contenu]   # colonnes de texte, dans l'ordre ; le HTML est nettoyé
+    where: "publie = 1"        # facultatif : ne pas exporter les brouillons
+    max_lignes: 500
+    libelle: "actualités du PAD"   # facultatif : affiché comme source
+
+# Exemple Drupal 7 (MySQL) : articles publiés avec leur corps.
+#  - nom: drupal
+#    url_env: DRUPAL_DATABASE_URL
+#    table: node_body_vue       # à créer côté base : CREATE VIEW node_body_vue AS
+#    id: nid                    #   SELECT n.nid, n.title, b.body_value FROM node n
+#    titre: title               #   JOIN field_data_body b ON b.entity_id = n.nid WHERE n.status = 1;
+#    colonnes: [body_value]

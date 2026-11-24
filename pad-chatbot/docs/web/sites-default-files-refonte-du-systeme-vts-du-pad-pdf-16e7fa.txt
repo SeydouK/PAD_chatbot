@@ -1,0 +1,217 @@
+URL: https://www.portdakar.sn/sites/default/files/refonte_du_systeme_vts_du_pad.pdf
+TITRE: refonte_du_systeme_vts_du_pad.pdf
+
+[Page 1]
+PORT AUTONOME DE DAKAR 
+****************** 
+Avis d’Appel d’Offres Ouvert n° F_DD_066 
+******************** 
+Refonte du Système VTS du PAD 
+ 
+1. Cet Avis d’appel d’offres fait suite à l’Avis général de Passation des 
+Marchés paru dans le journal «  Le Soleil » n°16380 du 09 janvier 2025, 
+publié sur Portail des Marchés publics du Sénégal et sur le site du Port 
+Autonome de Dakar  www.portdakar.sn . 
+ 
+2. Le Port Autonome de Dakar (PAD) a obtenu, dans le cadre de son budget 
+d’investissement 2025, des fonds pour effectuer des paiements au titre 
+du marché pour la refonte du système VTS (n°F_Dd_066). 
+ 
+3. Le Port Autonome de Dakar sollicite des offres sous pli fer mé de la part 
+de candidats éligibles et répondant aux qualifications requises pour  La 
+Refonte du système VTS. 
+ 
+4. La passation du Marché sera conduite par Appel d‘offres ouvert tel que 
+défini dans le Code des Marchés publics, et ouvert à tous les candidats 
+éligibles.  
+ 
+5. Les candidats intéressés peuvent obtenir des informations auprès de la 
+Personne Responsable du Marché ( Le Directeur du Digital) Tél. : 33 849 
+45 45/  poste 4132 et par  courriel  : cpm@portdakar.sn  et prendre 
+connaissance des documents d’Appel d’offres à l’adresse mentionnée ci-
+après : Cellule de Passation des Marchés du Port Autonome de Dakar – 
+Direction générale 21, boulevard de la Libération au 1 er étage (couloir 
+gauche) bureau n° 1D5 tél.  : 33 849 45 45 poste 41 -57, , les jours 
+ouvrables (du Lundi au Vendredi)  : 
+ lundi- Jeudi : 7 heures 30 à 13 heures 30  et de 14h à 16h30 
+mn ;  
+ Vendredi : 7 heures 30 à 13 heures 30mn 
+Un exemplaire du DAO sera disponible pour être consulté gratuitement  
+sur place par les candidats qui le souhaitent. 
+ 
+6. Les exigences en matière de qualification sont : 
+a. Capacité financière : 
+ Produire des états financiers des trois (03) dernières années 
+(2021,2022 et 2023) certifiés par un expert ou cabinet d’expertise
+
+[Page 2]
+comptable agréé par l’Ordre National des Experts Comptables et 
+Comptables Agrées du Sénégal (ONECCA) ou organismes 
+assimilés. Ou s’il s’agit d’une entreprise communautaire des états 
+financiers certifiés par un comptable ou un commissaire aux 
+comptes agrée par un organe habilité de son pays d’origine.  Ces 
+états financiers devront refléter une situation financière 
+équilibrée du candidat. 
+b. Capacités techniques 
+ 
+Le Candidat doit prouver, documentation à l’appui qu’il satisfait aux 
+exigences de capacité technique et d’expérience : 
+ 
+            Expérience : 
+ 
+ Etre un partenaire agrée de l’éditeur du logiciel VTS ou se faire 
+accompagner dans le cadre de cet appel d’offres par un partenaire 
+agréé par l’éditeur. A cet effet, Fournir : l’agrément de l’éditeur ou 
+celui du partenaire.  
+ 
+ Etre un partenaire agréé des c onstructeurs des équipements du 
+systèmes (Radar, AIS, Radiocommunications, Caméras, Station 
+météo, Serveurs et équipements réseaux etc…) ou se faire 
+accompagner dans le cadre de cet appel d’offres par un partenaire 
+agréé des constructeurs. A cet effet, Fournir : les agréments de tous 
+les constructeurs ou celui des partenaires.  
+ 
+ Avoir exécuté au cours des cinq (05) dernières années (2020, 2021, 
+2022, 2023 et 2024) deux (02) marchés de fourniture, d’installation 
+et de configuration de système VTS ou de systè mes de surveillance 
+maritime similaires comprenant des systèmes radars avec minimum 
+un système composé de Radar, AIS, Radiocommunications. Fournir, 
+à cet effet, au moins deux (02) attestations de bonne exécution. 
+     NB :  
+- Les attestations doivent préciser notamment : la nature des 
+prestations, le montant et l’année de réalisation. 
+- Les bons de commandes, copies de marché ou similaire ne sont 
+pas acceptés. 
+ 
+ Disposer au minimum d’un agrément de radiocommunication délivré 
+par un bureau d’étude agréé. 
+ 
+         Compétences : 
+Les candidats devront à cet effet disposer des ressources ci-dessous : 
+ 
+1. Deux (02) Ingénieurs de niveau BAC + 4/5 ans ou équivalent et deux 
+(02) techniciens de niveau BAC + 2 ans ou équivalent en systèmes 
+et télécommunications :
+
+[Page 3]
+Les ingénieurs et techniciens sont responsables de l'installation, de la 
+maintenance et de la mise à jour des systèmes techniques qui 
+composent le VTS. 
+ 
+Rôle principal : 
+ Installation, maintenance et dépannage des équipements de 
+surveillance (radars, systèmes AIS, stations de communication). 
+ 
+ Mise à jour et configuration des logiciels de gestion du trafic 
+(VTMIS). 
+ Garantir la fiabilité et la sécurité des systèmes informatiques et 
+des réseaux. 
+ Gestion des systèmes d'alimentation électrique et de secours pour 
+les équipements VTS. 
+NB : Les prestations de maintenance et de dépannage des équipements 
+de surveillance (radars, systèmes AIS, stations de communication) sont 
+incluses dans le présent marché jusqu’à l’issue de la période de garantie 
+du système installé.  
+ 
+Compétences : 
+ Connaissance approfondie des systèmes radar, AIS, VTMIS et 
+autres outils de gestion du trafic maritime. 
+ Disposer d’un GOC (Certificat Opérateur radio)  
+ Compétences en réseau informatique et en systèmes de 
+communication. 
+ Capacités de dépannage et de maintenance sur des équipements 
+spécialisés. 
+ Connaissance des normes de sécurité informatique et de la 
+gestion des données. 
+ 
+2. Deux (02) Analystes de données de niveau BAC  + 4/5 ans ou 
+équivalent et deux (02) gestionnaires de bases de données de niveau 
+BAC + 4/5 ans ou équivalent. 
+ 
+Les analystes de données collectent et interprètent les informations 
+recueillies par le système VTS pour optimiser la gestion du trafic et la 
+prévention des risques. 
+Rôle principal : 
+ Analyse des données de trafic (positions de s navires, conditions 
+météorologiques, incidents passés) pour prévoir les tendances et 
+améliorer la gestion du trafic.
+
+[Page 4]
+ Développement de rapports sur la sécurité, la performance du système, 
+et les zones congestionnées. 
+ Identification des risques potentiels et des comportements à risque à 
+partir des données collectées. 
+ Gestion des bases de données des navires, des zones de navigation et 
+des incidents maritimes. 
+NB : Une fois l’installation terminée et la formation dispensée, ce rôle 
+sera pris en charge par les ingénieurs formés du Port Autonome de Dakar. 
+Compétences : 
+ Compétences analytiques et en gestion des données (big data, analyse 
+statistique). 
+ Maîtrise des outils logiciels d'analyse de données et des systèmes VTS. 
+ Connaissance des tendances de trafic maritime et des risques associés. 
+ 
+3. Deux (02) Formateurs VTS de niveau BAC + 4/5 ans ou équivalent 
+Les formateurs VTS sont responsables de la formation initiale et continue 
+des opérateurs et du personnel technique du système VTS. 
+Rôle principal : 
+ Élaboration et mise en œuvre de programmes de formation pour les 
+opérateurs VTS, les superviseurs et le personnel technique. 
+ Formation aux procédures d'urgence, à l'utilisation des systèmes VTS, 
+et aux pratiques de sécurité maritime. 
+ Organisation de sessions de simulation pour tester la réactivité et les 
+compétences des opérateurs dans des situations de crise. 
+Compétences : 
+ Expertise en matière de gestion du trafic maritime et des systèmes 
+VTS. 
+ Expérience pédagogique et capacité à transmettre des connaissances 
+techniques. 
+ Connaissance des scénarios d’urgence maritime et des procédures à 
+suivre. 
+NB :  
+ Les ressources devront justifier au moins de cinq (05) années  
+d’expérience sur le déploiement et la mise en œuvre de système VTS. 
+À cet effet, fournir les CV signés où la participation effective aux
+
+[Page 5]
+réalisations est documentée et les certificats de formations de toutes 
+les personnes ressources qui devront intervenir sont exigés. 
+ 
+          Service professionnel de l’éditeur 
+La solution doit être implémentée par les service s professionnels des 
+constructeurs et des éditeurs pour la conception, le déploiement et la 
+configuration des solutions faisant partie de cet appel d’offres. 
+ 
+A cet effet, fournir le document de souscription au service professionnel des 
+constructeurs et éditeurs. 
+ 
+7. Les candidats intéressés peuvent obtenir un dossier d’appel d’offres 
+complet en s’adressant à la Caisse Centrale de la Direction Financière et 
+Comptable (DFC), sise à l’immeuble Ex COSEC, rue des Messageries, 
+zone sud du Port, contre un paiement n on remboursable de vingt-cinq 
+mille (25 000) FCFA les jours ouvrables, (du Lundi au Vendredi) : 
+ 
+ Lundi- Jeudi : 7 heures 30 à 13 heures 30  et de 14h à 16h30 
+mn ; 
+ Vendredi : 7 heures 30 à 13 heures 30mn 
+ 
+NB : La méthode de paiement sera en espèces 
+ 
+8. Les offres devront être soumises au plus tard le 09 juillet 2025 à 9h 
+30 mn à la salle du Conseil d’Administration de la Direction Générale 
+du Port, 1 er étage sise au 21, boulevard de la Libération où les offres 
+seront ouvertes en présence des représentants des candidats  le 
+même jour et à la même heure à l’adresse indiquée ci-dessus. Les offres 
+remises en retard ne seront pas acceptées. 
+Les offres doivent comprendre une garantie de soumission, délivré par un 
+organisme financier agrée par le Mini stère des Finances et du Budget, d’un 
+montant de neuf millions (9.000.000) de francs CFA  valable 28 jours à 
+compter de l’expiration de la durée de validité des offres. 
+Les offres devront demeurer valides pendant une durée de 90 jours, durant 
+laquelle les candidats restent engagés par leurs offres. 
+ 
+ 
+LE DIRECTEUR GENERAL 
+ 
+ 
+                      Waly Diouf BODIANG

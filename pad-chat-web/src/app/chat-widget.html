@@ -1,0 +1,105 @@
+@if (open()) {
+  <section class="panel" role="dialog" aria-label="Assistant virtuel du PAD">
+    <header>
+      <div>
+        <strong>Assistant PAD</strong>
+        <small>{{ chat.user() ? 'Connecté : ' + chat.user()!.nom + (chat.user()!.groupes.length ? ' · ' + chat.user()!.groupes.join(', ') : '') : 'Port Autonome de Dakar' }}</small>
+      </div>
+      <div class="actions">
+        <button
+          type="button"
+          class="reset account"
+          [class.on]="!!chat.user()"
+          (click)="accountClick()"
+          [attr.aria-label]="chat.user() ? 'Se déconnecter' : 'Se connecter'"
+          [title]="chat.user() ? 'Se déconnecter' : 'Se connecter'"
+        >
+          <svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path fill="currentColor" d="M12 12a4 4 0 1 0 0-8 4 4 0 0 0 0 8zm0 2c-3.3 0-8 1.7-8 5v1h16v-1c0-3.3-4.7-5-8-5z"/></svg>
+        </button>
+        <button type="button" class="reset" (click)="restart()" aria-label="Nouvelle conversation" title="Nouvelle conversation">
+          <svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path fill="currentColor" d="M12 5V2L7 6.5 12 11V8a5 5 0 1 1-5 5H5a7 7 0 1 0 7-8z"/></svg>
+        </button>
+        <button type="button" class="close" (click)="close()" aria-label="Fermer le chat">×</button>
+      </div>
+    </header>
+
+    @if (loginOpen() && !chat.user()) {
+      <form class="login" (submit)="doLogin($event)" aria-label="Connexion">
+        <p>Connectez-vous pour accéder aux documents réservés à votre groupe.</p>
+        <input name="nom" [(ngModel)]="loginNom" placeholder="Identifiant" aria-label="Identifiant" autocomplete="username" />
+        <input name="mdp" type="password" [(ngModel)]="loginMdp" placeholder="Mot de passe" aria-label="Mot de passe" autocomplete="current-password" />
+        @if (loginError()) {
+          <p class="login-error" role="alert">{{ loginError() }}</p>
+        }
+        <button type="submit" [disabled]="loginBusy() || !loginNom.trim() || !loginMdp">Se connecter</button>
+      </form>
+    }
+
+    <div class="messages" #list role="log" aria-live="polite">
+      @for (m of chat.messages(); track m.id) {
+        <div class="row" [class.user]="m.from === 'user'">
+          <div class="bubble" [class.error]="m.error">
+            @if (m.text) {
+              <p>{{ m.text }}</p>
+            }
+            @if (m.image) {
+              <img [src]="m.image" alt="" />
+            }
+            @if (m.buttons; as buttons) {
+              <div class="choices">
+                @for (b of buttons; track b.payload) {
+                  <button type="button" (click)="choose(b)">{{ b.title }}</button>
+                }
+              </div>
+            }
+          </div>
+        </div>
+      }
+      @if (chat.loading()) {
+        <div class="row">
+          <div class="bubble typing" role="status" aria-label="L'assistant écrit">
+            <span></span><span></span><span></span>
+          </div>
+        </div>
+      }
+    </div>
+
+    @if (voice.error(); as err) {
+      <p class="voice-error" role="status">{{ err }}</p>
+    }
+
+    <form (submit)="submit($event)">
+      <input
+        #field
+        type="text"
+        [value]="draft()"
+        (input)="onInput($event)"
+        placeholder="Écrivez votre question…"
+        aria-label="Votre message"
+        autocomplete="off"
+        maxlength="500"
+      />
+      @if (voice.supported) {
+        <button
+          type="button"
+          class="mic"
+          [class.on]="voice.listening()"
+          [disabled]="chat.loading()"
+          (click)="toggleMic()"
+          [attr.aria-pressed]="voice.listening()"
+          [attr.aria-label]="voice.listening() ? 'Arrêter l\'écoute' : 'Poser ma question à voix haute'"
+          [title]="voice.listening() ? 'Arrêter l\'écoute' : 'Poser ma question à voix haute'"
+        >
+          <svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><path fill="currentColor" d="M12 15a3 3 0 0 0 3-3V6a3 3 0 0 0-6 0v6a3 3 0 0 0 3 3zm5-3a5 5 0 0 1-10 0H5a7 7 0 0 0 6 6.92V22h2v-3.08A7 7 0 0 0 19 12h-2z"/></svg>
+        </button>
+      }
+      <button type="submit" class="send" [disabled]="chat.loading() || !draft().trim()" aria-label="Envoyer">
+        <svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><path fill="currentColor" d="M3 20.5v-6.8l9-1.7-9-1.7V3.5L22 12 3 20.5z"/></svg>
+      </button>
+    </form>
+  </section>
+}
+
+<button type="button" class="launcher" (click)="toggle()" [attr.aria-expanded]="open()" aria-label="Ouvrir l'assistant virtuel">
+  <svg viewBox="0 0 24 24" width="26" height="26" aria-hidden="true"><path fill="currentColor" d="M4 3h16a2 2 0 0 1 2 2v11a2 2 0 0 1-2 2H9l-5 4v-4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2z"/></svg>
+</button>
